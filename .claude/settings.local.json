@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nResolve all merge conflicts\n\n- Fix merge conflicts in Index.tsx \\(responsive banners, WhatsApp links\\)\n- Fix merge conflicts in ProductCard.tsx, Navigation.tsx\n- Fix merge conflicts in tiktok-icon.svg\n- Merge permissions in settings.local.json\n- Regenerate package-lock.json\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)",
+      "Bash(npm install)",
+      "Bash(dir:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)"
+    ]
+  }
+}
